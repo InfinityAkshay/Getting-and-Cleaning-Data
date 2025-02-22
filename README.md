@@ -11,6 +11,7 @@ This repository contains the R script `run_analysis.R` which performs data clean
    - `activity_labels.txt`: Contains the activity labels.
    - `X_test.txt` and `X_train.txt`: Contains the test and train data sets.
    - `y_test.txt` and `y_train.txt`: Contains the activity codes for the test and train data sets.
+   - `subject_test.txt` and `subject_train.txt`: Contains the subject identifiers for the test and train data sets.
 
 3. **Merge data**: The script merges the test and train data sets to create one data set.
 
@@ -20,11 +21,11 @@ This repository contains the R script `run_analysis.R` which performs data clean
 
 6. **Clean up variable names**: The script cleans up the variable names to make them more descriptive.
 
-7. **Create a tidy data set**: The script creates a tidy data set with the average of each variable for each activity.
+7. **Create a tidy data set**: The script creates a tidy data set with the average of each variable for each activity and each subject.
 
-8. **Write the tidy data set to a file**: The script writes the tidy data set to `tidy_data.txt`.
+8. **Write the tidy data set to a file**: The script writes the tidy data set to `final_data.txt`.
 
 ## Files
 
 - `run_analysis.R`: The R script that performs the analysis.
-- `tidy_data.txt`: The output tidy data set.
+- `final_data.txt`: The output tidy data set.
